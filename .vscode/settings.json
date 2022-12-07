@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "pap22z-z36/lib/javafx.base.jar",
+        "pap22z-z36/lib/javafx.controls.jar",
+        "pap22z-z36/lib/javafx.fxml.jar",
+        "pap22z-z36/lib/javafx.graphics.jar",
+        "pap22z-z36/lib/javafx.media.jar",
+        "pap22z-z36/lib/javafx.swing.jar",
+        "pap22z-z36/lib/javafx.web.jar",
+        "pap22z-z36/lib/javafx-swt.jar",
+        "pap22z-z36/lib/json_simple.jar",
+        "pap22z-z36/lib/mysql-connector-j-8.0.31.jar"
+    ]
+}
