@@ -189,7 +189,7 @@ Do naszego projektu został dołączony plik z rozszerzeniem ***.jar*** który u
 
 By to zrobić przechodzimy do katalogu w którym znajduje się plik ***.jar*** i wpisujemy komendę
 
-`java -jar --enable-preview --module-path path/to/project/lib --add-modules=javafx.controls,javafx.fxml JAVA_projekt.jar`
+`java -jar --enable-preview --module-path path/to/project/lib --add-modules=javafx.controls,javafx.fxml pap22z-z36.jar`
 
 Zostanie wyświetlone okno do zalogowania się do bazy danych. Musimy w nim podać hasło które ustalaliśmy przy konfiguracji MySQL. Po jego wpisaniu otworzy się stworzona przez nas aplikacja obsługi magazynu z częściami samochodowymi.
 

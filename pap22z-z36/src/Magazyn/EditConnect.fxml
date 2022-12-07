@@ -11,13 +11,13 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Magazyn.EditConnectController">
    <children>
       <Label layoutX="39.0" layoutY="55.0" text="Host" />
-      <TextField fx:id="hostFld" layoutX="112.0" layoutY="51.0" />
+      <TextField fx:id="hostFld" layoutX="112.0" layoutY="51.0" promptText="Enter host" />
       <Label layoutX="39.0" layoutY="96.0" text="Port" />
-      <TextField fx:id="portFld" layoutX="112.0" layoutY="92.0" />
+      <TextField fx:id="portFld" layoutX="112.0" layoutY="92.0" promptText="Enter port" />
       <Label layoutX="39.0" layoutY="135.0" text="User" />
-      <TextField fx:id="userFld" layoutX="112.0" layoutY="131.0" />
+      <TextField fx:id="userFld" layoutX="112.0" layoutY="131.0" promptText="Enter root user" />
       <Label layoutX="39.0" layoutY="176.0" text="Password" />
-      <PasswordField fx:id="passFld" layoutX="112.0" layoutY="172.0" />
+      <PasswordField fx:id="passFld" layoutX="112.0" layoutY="172.0" promptText="Enter root user password" />
       <HBox layoutX="4.0" layoutY="276.0" prefHeight="59.0" prefWidth="378.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <children>
             <Separator prefHeight="0.0" prefWidth="53.0" />
@@ -27,6 +27,6 @@
          </children>
       </HBox>
       <Label layoutX="36.0" layoutY="218.0" text="Database" />
-      <TextField fx:id="db_nameFld" layoutX="112.0" layoutY="214.0" />
+      <TextField fx:id="db_nameFld" layoutX="112.0" layoutY="214.0" promptText="Enter database name" />
    </children>
 </AnchorPane>
